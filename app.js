@@ -3,7 +3,7 @@ const morgan = require("morgan");
 const postBank = require("./postBank");
 const postList = require("./views/postList");
 const postDetails = require("./views/postDetails");
-const client = require("./db");
+const client = require("./db/index.js");
 
 const app = express();
 
